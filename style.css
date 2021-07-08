@@ -1,0 +1,141 @@
+body{
+	background: #fff;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 900!important;
+}
+.cart{
+	margin-top: 40px;
+	background-color: #F6F5FA;;
+	padding: 60px 0;
+	display: block;
+}
+.total-price{
+	padding-bottom: 15px;
+}
+.cart-item{
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 15px 20px;
+	margin-bottom: 20px;
+}
+.center-item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.cart-item img{
+	width: 115px;
+}
+.cart-item h5{
+    padding: 0 45px;
+}
+.cart-item .remove-item{
+	width: 25px!important;
+}
+.btn-default{
+	background-color: #fff;
+}
+.cart-item .form-control{
+	background-color: #F6F5FA;
+	border: none;
+    width: 65px;
+    border-radius: 10px!important;
+    font-weight: 700;
+    font-size: 20px;
+}
+.input-group{
+	width: unset;
+}
+.status{
+	text-align: right;
+}
+.check-out{
+    float: right;
+    padding: 10px 30px;
+	font-size: 19px;
+	background-color: #2FBE70;
+	border: none;
+}
+
+
+.hv-btn{
+	transition: all 0.3s ease-in-out;
+ }
+
+.hv-btn:hover{
+	transition: all 0.3s ease-in-out;
+	box-shadow: 0px 4px 11px 0px rgba(184, 181, 181, 0.781);
+}
+
+.cls-btn{
+	transition: all 0.2s ease-in-out;
+	color: red;
+	font-size: 20px!important;
+ }
+
+.cls-btn:hover{
+ 	transition: all 0.2s ease-in-out;
+	color: rgb(105, 0, 190);
+}
+
+.animated-icon{
+	transition: all 0.2s ease-in-out;
+	 
+	font-size: 20px!important;
+ }
+
+.cls-btn:hover .animated-icon{
+	transform: rotate(90deg);
+	transition: all 0.2s ease-in-out;
+ 
+}
+.cart-item{
+	box-shadow: 0px 4px 11px 0px rgba(211, 211, 211, 0.473);
+}
+
+#box-1{
+	display: block!important;
+}
+
+.check{
+ 	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	border: 4px solid rgb(58, 255, 18);
+	display: flex;
+	margin: auto;
+	color: rgb(58, 255, 18);
+	font-size: 40px;
+	justify-content: center;
+	align-items: center;
+}
+.tx{
+	color: rgb(58, 255, 18);
+
+}
+
+.newItems{
+	height: 300px!important;
+	margin: auto!important;
+	width: 80%!important;
+}
+
+.n{
+	height: 190px!important;
+}
+
+.back{
+	margin: 0% 38%!important;
+	color: white!important;
+	background: rgb(0, 126, 199);
+	width: 80px;
+ }
+ .bl-cart{
+	 display: none;
+
+ }
+
+ .tx2{
+	 color: #9900ff;
+ }
+ 
